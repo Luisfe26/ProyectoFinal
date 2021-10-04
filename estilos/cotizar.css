@@ -1,0 +1,171 @@
+/* MENU */
+.cont-infoCot{
+    background-color: #0c0c0c;
+    height: 35px;
+    color: white;
+    font-size: 13px;
+}
+
+.infoCot{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    margin: 0 20px 0 20px;
+}
+
+.infoCot > .lis-infoCot{
+    text-decoration: none;
+    padding: 7px 5px 0 0;
+}
+
+.lis-redes-infoCot{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 7px 5px 0 0;
+}
+
+.redes-infoCot{
+    width: 20px;
+    height: 20px;
+    padding: 0 5px 0 5px;
+}
+
+.redes-infoCot:hover{
+    cursor: pointer;
+    transition: all .3s ease;
+    transform: scale(1.5)
+}
+
+/* FORMULARIO COTIZAR*/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=text], input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+textarea{
+  min-height: 150px;
+  padding: 1rem 1rem;
+  max-width: 650px;
+  resize: none;
+}
+  
+.cont-cotizar{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.775);
+    border: 1px solid black;
+    padding: 1.5rem;
+    box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, .75);
+}
+
+.cont-cotizar > .cotizar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cont-cotizar > .cotizar > .campos{
+    width: 48%;
+    max-width: 48%;
+} 
+
+.cont-cotizar > .cotizar > .campos > textarea{
+    width: 100%;
+}
+
+.cont-cotizar > .btn{
+    font-size: 25px;
+    background-color: #883b98;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.btn:hover{
+    transition: all .3s ease;
+    transform: scale(1);
+    cursor: pointer;
+    background-color: #37b650;
+}
+
+h3{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+h6{
+    color: rgba(255, 255, 255, 0);
+    padding: 0 0 20px 10px;
+}
+
+
+/* VALIDACIONES */
+.correcto{
+    border: 1px solid green!important;
+}
+
+.error{
+    border: 1px solid red!important;
+}
+
+.valida{
+    font-size: 10px;
+    color: red;
+}
+
+.mensaje-exito{
+	font-size: 14px;
+	color: #119200;
+	display: none;
+    text-align: center;
+}
+
+.mensaje-exito-activo{
+	display: block;
+}
+
+.mensaje-error{
+	height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+
+.mensaje-error-activo{
+	display: block;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mensaje-error{
+        width: 90%;
+        font-size: 13px;
+    }
+}

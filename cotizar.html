@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizar</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/cotizar.css">
+    <link rel="stylesheet" href="estilos/fuentes.css">
+</head>
+<body class="fondo">
+    <header>
+        <div>
+            <nav class="cont-infoCot">
+                <ul class="infoCot">
+                    <li class="lis-infoCot">Bienvenidos a Ita Eventos</li>
+                    <li class="lis-redes-infoCot">
+                        <a href="inicio.html">
+                            <img class="redes-infoCot" src="imagenes/home.png" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/itaeventos/" target="_blank">
+                            <img class="redes-infoCot" src="imagenes/instagram.png" alt="">
+                        </a>
+                        <a href="https://wa.me/+56934529537" target="_blank">
+                            <img class="redes-infoCot" src="imagenes/whatsapp.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div> 
+    </header>
+    <!-- FORMULARIO COTIZAR -->
+    <section>
+        <form class="cont-cotizar" id="formulario">
+            <h3>Cotiza tu Arreglo o Decoración</h3>
+            <div class="cotizar">
+                <div class="campos" id="grupo_nombre">
+                    <label for="">Nombre completo (*)</label>
+                    <input type="text" placeholder="Ingresa tu nombre" name="nombre" id="nombre">
+                    <h6 class="msj">Escribe tu nombre</h6>
+                </div>
+                <div class="campos" id="grupo_telefono">
+                    <label for="">Telefono (*)</label>
+                    <input type="number" placeholder="Ingresa tu telefono" name="telefono" id="telefono">
+                    <h6 class="msj">Escribe tu telefono</h6>
+                </div>
+            </div>
+            <div class="cotizar">
+                <div class="campos" id="grupo_email">
+                    <label for="">Correo electronico (*)</label>
+                    <input type="text" placeholder="Ingresa tu Correo electronico" name="email" id="email">
+                    <h6 class="msj">Escribe tu Correo electronico</h6>
+                </div>
+                <div class="campos" id="grupo_opcion">
+                    <label for="">Opciones (*)</label>
+                    <select name="opcion" id="opcion" >
+                        <option value="1">Seleccionar una opción</option>
+                        <option value="AR">Arreglo</option>
+                        <option value="DEC">Decoración</option>
+                    </select>
+                    <h6 class="msj">Elije una opción</h6>
+                </div>
+            </div>
+            <div class="cotizar">
+                <div class="campos" id="grupo_descripcion">
+                    <label for="">Descripción (*)</label>
+                    <textarea placeholder="Ingresa la descripción de tu arreglo o Decoración" name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+                    <h6 class="msj">Escribe una descripción del pedido </h6>
+                </div>
+            </div>
+			<div class="mensaje-error" id="mensaje-error">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario completo. </p>
+			</div>
+            <button class="btn" id="btn">Enviar información</button>
+            <p class="mensaje-exito" id="mensaje-exito">Formulario enviado exitosamente!</p>
+        </form>
+    </section>
+    <footer>
+        <div class="cont-info">
+            <div class="info">
+                <p>Contacto:
+                    <br> +56934529537
+                    <br> itaeventosoficial@gmail.com
+                </p>
+            </div>
+            <div class="info">
+                <p>Horatio de Atención
+                    <br>
+                    <br> Lunes a Domingo
+                    <br> Horatio Continuo
+                    <br> 08:00 a 24:00hrs.
+                </p>
+            </div>
+            <div class="info" >
+                <h1>
+                    <a class="fuen-logo" href="/cotizar.html">ItaEventos</a></h1>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/formulario.js"></script>
+</body>
+</html>

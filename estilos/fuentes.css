@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Antropologi';
+    src: url('/fuentes/AntropologicalDemoRegular.ttf');
+}
+
+@font-face {
+    font-family: 'Bastingpersonal';
+    src: url('/fuentes/Bastingpersonal.otf');
+}
+
+@font-face {
+    font-family: 'MargareteDemoRegular';
+    src: url('/fuentes/MargareteDemoRegular.ttf');
+}
+
+
+@font-face {
+    font-family: 'Marvelan';
+    src: url('/fuentes/Marvelan.ttf');
+}
+
+@font-face {
+    font-family: 'Delight';
+    src: url('/fuentes/Delight\ Candles\ .ttf');
+}
+
+@font-face {
+    font-family: 'SunDeep';
+    src: url('/fuentes/SunDeep.ttf');
+}
+
+@font-face {
+    font-family: 'Begat';
+    src: url('/fuentes/Begat-Personal.otf');
+}
